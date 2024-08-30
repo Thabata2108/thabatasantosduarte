@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title> Portfólio pessoal (CV Online) </title>
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="quadrado">
+  <nav>
+    <ul>
+      <li><a href="index.html">Sobre mim </a></li>
+        <li><a href="index.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="#l4">Contato</a></li>
+    </ul>  
+  </nav>
+  <header>
+    <div class="container">
+    <img src="./imagens/thabata.jfif" alt="Foto da Thabata"></img>
+      <div class="text-container">
+    <h1> Thabata Santos Duarte da Silva </h1> 
+    <h2> 32 anos, Microempreendedora </h2>
+      </div>  
+    </div>
+  </header>  
+    </br>
+    </br>
+    <div class="font form"> 
+    <form action="enviar.php" method="POST">  <!-- criação de formulario para envio de contato -->
+
+        <fieldset> Gostaria de mais informações? Deixe seu contato!
+        </br>
+        </br>
+        <label for="nome"> Nome: </label>  <!-- campo para colocar o nome da pessoa de contato-->
+        <input type="text" name="nome" value="Digite seu nome" size="50" maxlength="50">
+        </br>
+        </br>
+        <label for="Email"> E-mail: </label> 
+        <input type="text" name="email" value="Digite seu email" size="50" maxlength="50">
+         </br>
+         </br>
+        <label for="Telefone"> Telefone com DDD: </label>
+        <input type="text" name="telefone" value="Digite seu telefone" size="50" maxlength="30">
+         </br>
+         </br>
+         <label for="mensagem"> Deixe uma mensagem, em breve retornarei:</label>
+         </br>
+         </br>
+           <textarea name="msg" rows="5" cols="40"> Sua mensagem...</textarea>
+          
+         </br>
+         </br>
+         <input name="Submit" type="submit" id="Submit" value="Enviar">  <!-- botão para enviar o formulário de contato -->
+         </fieldset>
+    </form>
+    </div>
+    </br>
+    <div class="decorative-line"></div>
+    
+    <footer>
+    <div class="text-container">
+        <h3>Siga-me nas redes sociais!</h3>
+        <h4>Feito para fins educacionais. Todos os direitos reservados.</h4>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/_thabaata?igsh=eXQ1NG83cXkyb3d6" target="_blank">
+            <img src="./imagens/instagram.jfif" alt="Instagram">
+            <p>Instagram</p>
+        </a>
+        <a href="https://www.facebook.com/share/aMF57C3fWw1xEQky/?mibextid=qi2Omg" target="_blank">
+            <img src="./imagens/facebook.jfif" alt="Facebook">
+            <p>Facebook</p>
+        </a>
+    </div>
+</footer>
+</body>
+</html>
